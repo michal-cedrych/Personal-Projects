@@ -40,4 +40,9 @@
 - Create drawing
 - Send to manufacture
 
+![Point Cloud](https://github.com/michal-cedrych/Personal-Projects/blob/main/Hilux%20Underbonnet%20Air%20Compressor/Quick%20Images/point_cloud.PNG?raw=true)
+![Simple Mesh](https://github.com/michal-cedrych/Personal-Projects/blob/main/Hilux%20Underbonnet%20Air%20Compressor/Quick%20Images/simple_mesh.PNG?raw=true)
+![Simple Mesh Coloured](https://github.com/michal-cedrych/Personal-Projects/blob/main/Hilux%20Underbonnet%20Air%20Compressor/Quick%20Images/simple_mesh_coloured.PNG?raw=true)
+![Overall Mesh](https://github.com/michal-cedrych/Personal-Projects/blob/main/Hilux%20Underbonnet%20Air%20Compressor/Quick%20Images/overall_mesh.PNG?raw=true)
+![CAD Reference](https://github.com/michal-cedrych/Personal-Projects/blob/main/Hilux%20Underbonnet%20Air%20Compressor/Quick%20Images/cad_reference.PNG?raw=true)
 ![CAD Mounting Holes](https://github.com/michal-cedrych/Personal-Projects/blob/main/Hilux%20Underbonnet%20Air%20Compressor/Quick%20Images/cad_mounting_holes.PNG?raw=true)
