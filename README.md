@@ -39,3 +39,5 @@
 - Manually cut material from model
 - Create drawing
 - Send to manufacture
+
+![Kiku](Hilux\ Underbonnet\ Air\ Compressor/Quick\ Images/point_cloud.jpg)
