@@ -40,4 +40,4 @@
 - Create drawing
 - Send to manufacture
 
-![Kiku]("Personal-Projects/Hilux Underbonnet Air Compressor/Quick Images/point_cloud.jpg")
+![CAD Mounting Holes](https://github.com/michal-cedrych/Personal-Projects/blob/main/Hilux%20Underbonnet%20Air%20Compressor/Quick%20Images/cad_mounting_holes.PNG?raw=true)
