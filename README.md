@@ -40,4 +40,4 @@
 - Create drawing
 - Send to manufacture
 
-![Kiku]("Hilux Underbonnet Air Compressor/Quick Images/point_cloud.jpg")
+![Kiku]("Personal-Projects/Hilux Underbonnet Air Compressor/Quick Images/point_cloud.jpg")
