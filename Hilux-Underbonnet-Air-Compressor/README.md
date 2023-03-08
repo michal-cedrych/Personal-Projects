@@ -32,9 +32,9 @@
 
 ### Progress Images
 
-![Point Cloud](https://github.com/michal-cedrych/Personal-Projects/blob/main/Hilux%20Underbonnet%20Air%20Compressor/Quick%20Images/point_cloud.PNG?raw=true)
-![Simple Mesh](https://github.com/michal-cedrych/Personal-Projects/blob/main/Hilux%20Underbonnet%20Air%20Compressor/Quick%20Images/simple_mesh.PNG?raw=true)
-![Simple Mesh Coloured](https://github.com/michal-cedrych/Personal-Projects/blob/main/Hilux%20Underbonnet%20Air%20Compressor/Quick%20Images/simple_mesh_coloured.PNG?raw=true)
-![Overall Mesh](https://github.com/michal-cedrych/Personal-Projects/blob/main/Hilux%20Underbonnet%20Air%20Compressor/Quick%20Images/overall_mesh.PNG?raw=true)
-![CAD Reference](https://github.com/michal-cedrych/Personal-Projects/blob/main/Hilux%20Underbonnet%20Air%20Compressor/Quick%20Images/cad_reference.PNG?raw=true)
-![CAD Mounting Holes](https://github.com/michal-cedrych/Personal-Projects/blob/main/Hilux%20Underbonnet%20Air%20Compressor/Quick%20Images/cad_mounting_holes.PNG?raw=true)
+![Point Cloud](images/point_cloud.PNG?raw=true)
+![Simple Mesh](images/simple_mesh.PNG?raw=true)
+![Simple Mesh Coloured](images/simple_mesh_coloured.PNG?raw=true)
+![Overall Mesh](images/overall_mesh.PNG?raw=true)
+![CAD Reference](images/cad_reference.PNG?raw=true)
+![CAD Mounting Holes](images/cad_mounting_holes.PNG?raw=true)
