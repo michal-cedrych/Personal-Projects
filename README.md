@@ -14,3 +14,10 @@
 - Using iPhone FaceID sensor to generate point cloud of engine bay
 - Combine multiple scans with MeshLab
 - Import mesh into Solidworks and create solid body model
+
+## Metashape Blur Analysis
+
+- Python script to leverage the Image Quality tool found within Agisoft Metashape developed primarily for photogrammetry workflow
+- Blurry images affect photogrammetry negatively, it is better to remove them from the input
+- A symbolic link is created for each image with the 'Image/Quality' value as calculated by Metashape in the filename
+- This can be used to sort and discard low quality images
