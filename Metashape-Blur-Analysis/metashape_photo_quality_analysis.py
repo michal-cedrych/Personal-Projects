@@ -9,7 +9,7 @@ time_start = time.time()
 FILE_EXTENSIONS = [".jpg", ".jpeg", ".tif", ".tiff"]
 COMPATIBLE_MAJOR_VERSION = ["1.7", "1.8"] # list of compatible versions
 
-def findFiles(directory, file_extension):    # directory: str, file_extension: list
+def find_files(directory, file_extension):    # directory: str, file_extension: list
     # function that returns list of files in folder, matching one of type
     files = []
     for f in os.scandir(directory):
@@ -21,7 +21,7 @@ def findFiles(directory, file_extension):    # directory: str, file_extension: l
 def init():
     root_folder = os.path.dirname(sys.argv[0])
     print(root_folder)
-    photos = findFiles(root_folder, FILE_EXTENSIONS)
+    photos = find_files(root_folder, FILE_EXTENSIONS)
     if len(photos) == 0:
         print("No images found...exiting")
         sys.exit(0)
@@ -29,7 +29,7 @@ def init():
         print(f"Found {len(photos)} images")
     return root_folder, photos
 
-def checkCompatibility():
+def check_compatibility():
     # check compatibility between metashape executable and this python script
     found_major_version = ".".join(Metashape.app.version.split('.')[:2])
     if found_major_version not in COMPATIBLE_MAJOR_VERSION:
@@ -37,7 +37,7 @@ def checkCompatibility():
     else:
         print(f"Metashape version {Metashape.app.version} is compatible with this script")
 
-def createSymbolicLinks(root_folder, photos, chunk):
+def create_symbolic_links(root_folder, photos, chunk):
     for i in range(len(chunk.cameras)):
         source_file = photos[i]
         file_name, file_extension = os.path.splitext(os.path.basename(source_file))
@@ -51,21 +51,21 @@ def createSymbolicLinks(root_folder, photos, chunk):
         os.symlink(source_file, destination_file)
     print("Photo quality less than 7000 is considered blurry")
 
-def timeKeeping():
+def time_keeping():
     time_finish = time.time()
     duration = time_finish - time_start
     print(f"Blur analysis completed in " + "{:.3f}".format(duration) + " sec")
 
 def main():
     root_folder, photos = init()
-    checkCompatibility()
+    check_compatibility()
     doc = Metashape.Document()
     chunk = doc.addChunk()
     chunk = doc.chunk
     chunk.addPhotos(photos)
     chunk.analyzePhotos()
-    createSymbolicLinks(root_folder, photos, chunk)
-    timeKeeping()
+    create_symbolic_links(root_folder, photos, chunk)
+    time_keeping()
 
 if __name__ == '__main__':
     main()
