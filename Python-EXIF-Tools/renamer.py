@@ -1,10 +1,10 @@
 import os
 import PIL
-from Opts import Opts
+# from Opts import Opts
 
-path, opts = Opts()
+# path, opts = Opts()
 
-def findFiles(directory, file_extension):    # directory: str, file_extension: list
+def find_files(directory, file_extension):    # directory: str, file_extension: list
     # function that returns list of files in folder, matching one of type
     files = []
 
@@ -28,9 +28,9 @@ if __name__ == '__main__':
 
 '''
 get directory from getopt
-get "-revert" flag for original filename
+get "--revert" flag for original filename
 make list of files in that directory
-if -revert, write file back with original filename
+if --revert, write file back with original filename
 get date, "_mcedrych_" string, unique image id
 preserve current filename in xmp data
 if file exists, check if end of file name is (n), and if not append (1), otherwise append (n+1)
